@@ -11,14 +11,14 @@ TagManager:
   - 
   - Water
   - UI
-  - Exclude Illumination of Objects
-  - Object Interactions
-  - Camera can or cannot see
+  - 
+  - 
+  - 
   - Ignore Lights
   - Ignore Cameras
   - 
-  - 
-  - 
+  - Ignore TIYS Lights
+  - Ignore Directional Light
   - 
   - 
   - 
