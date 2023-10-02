@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         float hVal = Input.GetAxis("Horizontal");
@@ -42,7 +42,7 @@ public class PlayerInput : MonoBehaviour
 
 
 
-        //Handle mouse input
+
         float mxVal = Input.GetAxis("Mouse X");
         float myVal = Input.GetAxis("Mouse Y");
 
