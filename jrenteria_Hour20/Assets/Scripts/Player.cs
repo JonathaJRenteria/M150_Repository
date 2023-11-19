@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
         Vector3 position = transform.position;
         position.x += xMove;
-        position.x = Mathf.Clamp(position.x, bounds - bounds, bounds);
+        position.x = Mathf.Clamp(position.x, -bounds, bounds);
         transform.position = position;
 
         if (Input.GetButtonDown("Jump") && canPhase)
